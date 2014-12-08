@@ -47,7 +47,7 @@ function text(left, top, right, width, height, stylesMap) {
 
     text.renderShape = function (ctx) {
         var canvas = document.getElementById("shapes-canvas");
-        ctx.font="20px Georgia";
+        ctx.font="35px Georgia";
         var gradient = ctx.createLinearGradient(0, 0, canvas.width, 0);
         gradient.addColorStop("0.25","black");
         gradient.addColorStop("0.50","blue");
